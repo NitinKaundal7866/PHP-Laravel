@@ -33,7 +33,7 @@ print the submitted data, and use the isset() condition to check whether the for
       <input type="submit">
   </form>
   <?php
-  if (isset($_GET['submit'])) {
+  if (isset($_POST['submit'])) {
       echo "Form has been successfully submitted!";
   }
 
